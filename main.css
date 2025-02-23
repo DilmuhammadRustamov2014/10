@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: rgb(30, 30, 30);
+  }
+  .div__log {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .poki {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+  }
+  .inp {
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 6px;
+    max-width: 200px;
+    width: 100%;
+    color: rgb(108, 117, 125);
+    font-family: "Roboto";
+    font-size: 15.88px;
+    font-weight: 400;
+    line-height: 19px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  select {
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 6px;
+    color: rgb(33, 37, 41);
+    max-width: 200px;
+    width: 100%;
+    font-size: 15.63px;
+    font-weight: 400;
+    line-height: 24px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  option {
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 6px;
+    color: rgb(33, 37, 41);
+    max-width: 200px;
+    width: 100%;
+    font-size: 15.63px;
+    font-weight: 400;
+    line-height: 24px;
+    background: rgb(255, 255, 255);
+  }
+  .submit {
+    box-sizing: border-box;
+    border: 1px solid rgb(25, 135, 84);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    max-width: 200px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    background: rgb(25, 135, 84);
+  }
+  .ota {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .item {
+    border-radius: 10px;
+    max-width: 225px;
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35),
+      0px 30px 60px -30px rgba(0, 0, 0, 0.3),
+      0px 50px 100px -20px rgba(50, 50, 93, 0.25);
+    background: rgb(255, 255, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+  }
